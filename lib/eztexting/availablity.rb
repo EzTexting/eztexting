@@ -22,9 +22,9 @@ module Eztexting
       when "1"
         "The keyword is available"
       when "0"
-        "The keyword is no available"
+        "The keyword is not available"
       when "-1" 
-        "Invalid user and/or password or API is not allowed for your account"
+        "Invalid user and/or password or API access is not allowed for your account"
       when "-10"
         "error"
       else
