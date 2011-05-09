@@ -18,7 +18,7 @@ module Eztexting
     def self.process(response)
       api_result = case response
       when "-1"
-        "Invalid user and/or password or API is not allowed for your account"
+        "Invalid user and/or password or API access is not allowed for your account"
       when "-10"
         "Unknown error (please contact our support dept.)"
       else
