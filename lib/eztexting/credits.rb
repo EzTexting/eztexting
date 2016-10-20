@@ -53,7 +53,7 @@ module Eztexting
       when "0"
         "The Purchase Was Declined"
       when "-1" 
-        "Invalid user and/or password or API is not allowed for your account"
+        "Invalid user and/or password or API access is not allowed for your account"
       when "-2"
         "Request declined because it is less than $5.00 minimum purchase."
       when "-10"
