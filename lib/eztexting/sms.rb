@@ -37,7 +37,7 @@ module Eztexting
       when "1"
         "Message sent"
       when "-1"
-        "Invalid user and/or password or API is not allowed for your account"
+        "Invalid user and/or password or API access is not allowed for your account"
       when "-2" 
         "Credit limit reached"
       when "-5"
